@@ -1,7 +1,6 @@
 #include <iostream>
 
 int get_change(int m) {
-  //write your code here
   int n;
   n = m/10;
   m = m%10;
