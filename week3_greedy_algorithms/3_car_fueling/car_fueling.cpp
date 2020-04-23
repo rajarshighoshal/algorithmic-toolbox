@@ -21,7 +21,6 @@ int compute_min_refills(int dist, int tank, vector<int> & stops) {
             return -1;
         if (current_refill <=  stops.size())
             num_refills++;
-        
     }
     return num_refills;
 }
