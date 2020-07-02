@@ -14,7 +14,7 @@ long long inversion_merge(vector<int> &a, vector<int> &b, size_t left, size_t mi
     }
     else {
       b[k] = a[j];
-      count += mid -i;
+      count += mid - i;
       j++;
       k++;
     }
